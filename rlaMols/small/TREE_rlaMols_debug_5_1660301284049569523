@@ -1,0 +1,65 @@
+# Timestamp: 12.08.2022 11:48:04_+0100 1660301284049742418
+# Producing program: https://github.com/OKullmann/oklibrary/blob/master/Satisfiability/Solvers/Gecode/MOLS/rlaMols.cpp
+# program name:       rlaMols_debug
+#  version:           1.0.0
+#  last change:       12.8.2022
+#  git-id:            8e47f0e3b1d4d4c43fcbe9fff3be4d0bad90231a
+# machine name:       csltok2
+#  bogomips:          5799.77
+# compiler version:   g++ 10.3.0
+#  compilation date:  Aug_12_2022 11:40:32
+#  used options:      --std=c++20 -pedantic -fmax-errors=5 -Wall -Wextra -Wno-missing-field-initializers -Wno-dangling-else -Wno-abi -g -D_GLIBCXX_DEBUG -pthread -lgecodesearch -lgecodeint -lgecodekernel -lgecodesupport
+#  NDEBUG:            0
+#  OPTIMIZE:          0
+
+# command-line: "./rlaMols_debug" "5" "data/SpecsCollection/Euler/red" "" "count" "dom" "enu" "maxdegdom" "" "" "1" "1" "" "+tree"
+# N: 5
+# k=3 total_num_sq=3: "data/SpecsCollection/Euler/red"
+#   num_uc=6 num_eq=0 num_peq=1
+# no_ps
+# num_runs=1
+# threads=1
+# rt=count-solutions(count)
+# no_stopping
+#   propagation-level: domain-prop(dom)
+#   branching-type: enumerative-branching(enu)
+#   variable-heuristic: max-deg/dom-var(maxdegdom)
+#   order-heuristic: ascending-order(asc)
+#   la-reduction-type: relaxed-pruning(relpr)
+#   commit-distance: 1
+
+# id pid branch dp w
+# size [var values...]
+# mu0 qfppc pprunes pmprune pprobes rounds solc tr pelvals dp
+
+1 0 18446744073709551615 0 4
+5 55 +1 +2 +3 +4
+148 0 6.25 137.838 129.73 1 0 0.001603 0 0
+
+2 1 0 1 3
+4 60 +2 +3 +4
+138 0 25.3247 139.855 111.594 1 0 0.002021 0 1
+
+3 2 0 2 0
+0
+130 2.2 2.53165 67.6923 60.7692 1 6 0.001038 8.46154 2
+
+4 2 1 2 0
+0
+129 2.33333 3.27869 49.6124 47.2868 1 0 0.000735 5.42636 2
+
+5 2 2 2 0
+0
+129 1.5 3.22581 49.6124 48.062 1 0 0.000799 4.65116 2
+
+6 1 1 1 0
+0
+137 1.52941 9.03955 51.8248 129.197 2 4 0.002684 18.9781 1
+
+7 1 2 1 0
+0
+137 1.25 3.30579 44.5255 88.3212 1 4 0.001669 10.9489 1
+
+8 1 3 1 0
+0
+137 1.33333 6.50407 44.5255 89.781 1 4 0.002324 11.6788 1
